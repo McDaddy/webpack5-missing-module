@@ -1,0 +1,24 @@
+{
+  "name": "webpack5-missing-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "html-webpack-plugin": "^4.5.0",
+    "kiwi-schema": "git://github.com/bvandenbos/kiwi.git#maps",
+    "process": "^0.11.10",
+    "raw-loader": "^4.0.2",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^4.0.0-beta.0"
+  }
+}
